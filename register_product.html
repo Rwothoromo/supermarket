@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Supermarket System</title>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+		<style>
+
+			.heading{
+				color: green;
+				font-weight: bold;
+				font-family: fantasy;
+				text-align: center;
+				text-decoration: underline;
+			}
+
+			.fieldset{
+					width: 60%;
+					margin: auto;
+			}
+
+			.table{
+			padding: 4px;
+			width: 90%;
+			margin: auto;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<h1 class="heading">Model Supermarket Management System</h1>
+
+		<fieldset class='fieldset'>  
+		<legend>Product registration</legend>
+			<form method="POST" action="submit.php">
+				<table class="table">
+					<tr>
+						<td><label>Product name</label></td>
+						<td><input type="text" name="product_name" required></td>
+					</tr>	
+					<tr>
+						<td><label>Product description</label></td>
+						<td><textarea name="description" rows="5"></textarea></td>
+					</tr>
+					<tr>
+						<td><label>Cost price</label></td>
+						<td><input type="number" step="0.5" name="cost_price" required></td>
+					</tr>
+					
+					<tr>
+						<td></td>
+						<td><input type="submit" class="btn btn-info" value="Save information"></td>
+					</tr>
+				</table>
+			</form>
+
+		</fieldset>
+		<script src="bootstrap/js/bootstrap.min.js" ></script>
+	</body>
+
+</html>
+
+
+

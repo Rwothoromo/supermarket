@@ -1,0 +1,15 @@
+
+
+
+
+git clone https://github.com/Davisdoctor/session2_web_dev_2017.git
+
+git status
+
+git stage -A
+
+git commit -m "This is the first file we added"
+
+git pull
+
+git push
